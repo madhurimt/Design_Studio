@@ -52,14 +52,13 @@ main{
 img{
     position:absolute;
     right:0;
-    top:10vh;
+    top:15vh;
     height:650px;
-    width:900px;
+    width:950px;
     object-fit: cover;
     padding:10px;
     border:1px solid #c9a356;
     border-right: none;
-
 }
 
 .text_styling{
@@ -78,7 +77,7 @@ h1{
 
 p{
     color:whitesmoke;
-    margin-top:6vh;
+    margin-top:7vh;
 }
 
 button{
@@ -86,8 +85,27 @@ button{
     height:50px;
     background-color: #f7a90c;
     color:#000;
-    margin-top:5vh;
+    margin-top:6vh;
     font-size:20px;
+}
+
+.style_bottom_line{
+    margin-top: 7vh;
+    width:78%;
+    border:1px solid #c9a356;
+}
+
+.recent_work{
+    width:150px;
+    height:150px;
+    background-color:#f7a90c;
+    position: absolute;
+    right:0;
+    top:75vh;
+}
+
+.recent_work p{
+    color: #000;
 }
 
 
