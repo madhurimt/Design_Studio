@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color:#000;
     font-family: 'Poppins', sans-serif;
     margin-left: 4vw;
     overflow-x: hidden;
 }
 
-.logo{
+.logo {
     color:#f7a90c;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,13 +29,13 @@ nav{
     height:5vh;
 }
 
-ul{
+ul {
     width:30vw;
     display: flex;
     justify-content: space-between;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -45,11 +45,11 @@ li a{
     text-transform: uppercase;
 }
 
-main{
+main {
     position: relative;
 }
 
-img{
+img {
     position:absolute;
     right:0;
     top:15vh;
@@ -57,16 +57,16 @@ img{
     width:950px;
     object-fit: cover;
     padding:10px;
-    border:1px solid #c9a356;
+    border:1px dashed #c9a356;
     border-right: none;
 }
 
-.text_styling{
+.text_styling {
     position:absolute;
     margin-top:25vh;
 }
 
-h1{
+h1 {
     font-size: 6rem;
     word-spacing: 2px;
     line-height: 1.2;
@@ -75,12 +75,12 @@ h1{
     z-index: 1;
 }
 
-p{
+p {
     color:whitesmoke;
     margin-top:7vh;
 }
 
-button{
+button {
     width:200px;
     height:50px;
     background-color: #f7a90c;
@@ -89,13 +89,13 @@ button{
     font-size:20px;
 }
 
-.style_bottom_line{
+.style_bottom_line {
     margin-top: 7vh;
     width:78%;
-    border:1px solid #c9a356;
+    border:1px dashed #c9a356;
 }
 
-.recent_work{
+.recent_work {
     width:150px;
     height:150px;
     background-color:#f7a90c;
@@ -104,7 +104,7 @@ button{
     top:75vh;
 }
 
-.recent_work p{
+.recent_work p {
     color: #000;
 }
 
